@@ -23,8 +23,8 @@ export function Partnership() {
       <div className="container px-4 md:px-6 mx-auto">
         <div className="max-w-4xl mx-auto">
           <h2 className="text-3xl md:text-5xl font-black text-primary mb-16 text-center leading-tight">
-            Você não vai ficar <br />
-            <span className="text-dominus">esperando resposta.</span>
+            Não temos <span className="opacity-80 line-through">setor de atendimento</span><br />
+            Temos <span className="text-dominus">acompanhamento ativo.</span>
           </h2>
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-x-12 gap-y-12 relative">

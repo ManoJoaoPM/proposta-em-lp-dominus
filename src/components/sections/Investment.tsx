@@ -10,7 +10,7 @@ export function Investment() {
             </h2>
             <div className="space-y-6 text-lg md:text-xl text-secondary leading-relaxed">
               <p>
-                Para uma imobiliária que trabalha com imóveis a partir de R$300mil, uma venda gerada pelo canal cobre anos de parceria.
+                Para uma imobiliária que trabalha com imóveis a partir de R$500mil, uma venda gerada pelo canal cobre meses de parceria.
               </p>
               <p className="text-primary font-medium">
                 A pergunta não é se R$2.500 é caro. A pergunta é: quanto custa manter uma agência que não entende o seu negócio?

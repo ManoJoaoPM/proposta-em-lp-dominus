@@ -26,16 +26,16 @@ export function Hero() {
 
         {/* Headline */}
         <h1 className="text-4xl md:text-6xl lg:text-7xl font-black text-primary max-w-5xl leading-tight tracking-tight mb-8">
-          Tráfego pago para imobiliária grande não é sobre anúncio. <br className="hidden md:block" />
+          Tráfego pago para imobiliária não é sobre apertar botões. <br className="hidden md:block" />
           <span className="text-dominus">
-            É sobre quem está do outro lado da conta.
+            É sobre confiar em quem está do outro lado da tela.
           </span>
         </h1>
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-secondary max-w-3xl leading-relaxed mb-12">
-          A Inglaterra tem 25 anos de história, portfólio completo e nome consolidado em Londrina. 
-          O que falta é uma parceria de marketing que entenda esse tamanho e entregue estratégia real, não só clique.
+          A Inglaterra tem 25 anos de história, quase 2 mil imóveis cadastrados e nome consolidade em Londrina. 
+          O que falta é uma parceria de marketing que entenda esse tamanho e entregue estratégia real, e não estratégias pré-prontas.
         </p>
       </div>
     </section>

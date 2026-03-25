@@ -24,12 +24,12 @@ const solutions = [
   {
     icon: LineChart,
     title: "Reunião semanal",
-    desc: "Números na mesa, decisões tomadas, próxima semana alinhada."
+    desc: "Toda semana, o que funcionou, o que ajustamos e será feito. Sem surpresa no fim do mês com boleto que não valeu a pena."
   },
   {
     icon: Layers,
-    title: "Posicionamento por segmento",
-    desc: "Estratégia separada para padrão e alto padrão."
+    title: "Funis modulares",
+    desc: "Estratégia separada para médio padrão e alto padrão."
   }
 ];
 
@@ -46,8 +46,8 @@ export function Solution() {
             Cada campanha tem um papel no funil. Cada criativo tem uma razão de existir.
           </p>
           <p className="text-lg text-secondary">
-            Não entregamos campanha no ar e relatório no fim do mês. Entregamos um canal de aquisição 
-            construído para o portfólio da Inglaterra, do residencial ao alto padrão.
+            Não entregamos campanhas no ar e relatório no fim do mês. Entregamos um canal de aquisição 
+            sólido para o portfólio da Inglaterra, de terceiros a lançamentos, do médio ao alto padrão.
           </p>
         </div>
 
