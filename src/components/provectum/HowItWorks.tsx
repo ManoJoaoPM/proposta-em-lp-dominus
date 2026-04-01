@@ -17,7 +17,7 @@ export function HowItWorks() {
           </h2>
         </motion.div>
 
-        {/* 4 Pilares de Acompanhamento - Grid 2x2 */}
+        {/* 3 Pilares de Acompanhamento - Grid 2x2 */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 mb-20 max-w-5xl mx-auto">
           {[
             {
@@ -28,14 +28,6 @@ export function HowItWorks() {
               title: "Análises Periódicas",
               desc: "Gestão do projeto e dos resultados. Reavaliação do plano de ação sempre que necessário. Instrução 360° do negócio. Acompanhamento de vendas."
             },
-            {
-              title: "Relatório Mensal",
-              desc: "Clareza dos números do projeto. Comparação mês a mês. Atualização em tempo real do desempenho."
-            },
-            {
-              title: "Análise Comercial",
-              desc: "Estudo de campo (análise de concorrentes). Metrificação do funil de vendas. Cliente oculto na operação da Provectum."
-            }
           ].map((item, i) => (
             <motion.div 
               key={i}
@@ -49,6 +41,17 @@ export function HowItWorks() {
               <p className="text-text-gray leading-relaxed text-lg">{item.desc}</p>
             </motion.div>
           ))}
+          {/* 3º pilar centralizado */}
+          <motion.div 
+            initial={{ opacity: 0, y: 30 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3, duration: 0.6 }}
+            className="md:col-span-2 bg-white p-8 md:p-10 border-l-4 border-l-black/5 hover:border-l-dominus rounded-r-2xl shadow-[0_4px_24px_rgba(0,0,0,0.03)] hover:shadow-[0_8px_32px_rgba(232,113,10,0.08)] transition-all duration-300 max-w-xl mx-auto w-full"
+          >
+            <h3 className="text-2xl font-bold mb-4 text-text-dark">Relatório Mensal</h3>
+            <p className="text-text-gray leading-relaxed text-lg">Clareza dos números do projeto. Comparação mês a mês. Atualização em tempo real do desempenho.</p>
+          </motion.div>
         </div>
       </div>
     </section>

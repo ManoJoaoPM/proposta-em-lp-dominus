@@ -16,7 +16,7 @@ export function ROI() {
         >
           <span className="text-xs font-bold tracking-widest text-dominus uppercase mb-4 block">Na prática, o que isso representa?</span>
           <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-8">
-            O Retorno Sobre o Investimento
+            O Retorno Sobre o Investimento Digital
           </h2>
           <p className="text-lg md:text-xl text-text-gray font-regular leading-relaxed max-w-3xl mx-auto">
             Levando em consideração 2 fechamentos/mês influenciados pelas redes sociais, com comissão de 5% e VGV médio de R$600.000:

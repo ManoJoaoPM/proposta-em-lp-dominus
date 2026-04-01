@@ -44,15 +44,14 @@ export function Hero() {
           </motion.div>
 
           <h1 className="text-4xl md:text-6xl lg:text-[64px] font-black leading-[1.05] text-text-white mb-10 tracking-tight">
-            A maior imobiliária de <br className="hidden md:block" />
-            Campinas <br className="hidden md:block" />
-            ainda não é a <span className="text-dominus">mais <br className="hidden md:block" /> lembrada.</span>
+            Não basta ser grande, <br className="hidden md:block" />
+            é necessário <br className="hidden md:block" />
+            se mostrar <span className="text-dominus">grande <br className="hidden md:block" /></span>
           </h1>
 
           <p className="text-lg md:text-xl text-text-gray font-regular max-w-4xl mx-auto mb-14 leading-relaxed">
-            Ter 11 unidades, portfólio completo e estar entre as 20 melhores do Brasil não <br className="hidden md:block" />
-            é o mesmo que ser referência indiscutível em Campinas. <strong className="text-text-white font-bold">Para isso, é <br className="hidden md:block" />
-            preciso aparecer. Toda semana. Todo dia.</strong>
+            Esse é um projeto que irá mostrar congruência entre o tamanho real da rede e sua exponência digital. <br className="hidden md:block" />
+            Iremos criar um <strong className="text-text-white font-bold">domínio inato em Campinas<br className="hidden md:block" /></strong>
           </p>
 
           {/*

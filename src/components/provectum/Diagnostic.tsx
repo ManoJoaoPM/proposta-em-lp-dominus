@@ -21,17 +21,17 @@ export function Diagnostic() {
             
             <div className="space-y-6 text-lg md:text-xl text-text-dark/80 max-w-2xl leading-relaxed">
               <p>
-                Vocês trabalham com todas as faixas de VGV. Do Minha Casa Minha Vida ao alto padrão. Têm 11 unidades em Campinas, Valinhos e Paulínia. Estão entre as 20 melhores imobiliárias do Brasil no Ranking da Superlógica.
+                Trabalhando todas as faixas do Minha Casa Minha Vida ao mais refinado alto padrão. Com 11 unidades em Campinas, Valinhos e Paulínia. Estão entre as 20 melhores imobiliárias do Brasil no Ranking da Superlógica.
               </p>
               <p className="font-bold text-text-dark">
-                Mas nas redes sociais, a Provectum parece qualquer outra imobiliária de Campinas.
+                Porém nas redes sociais, muita das vezes, a Provectum parece ser menos relevante que um corretor autônomo.
               </p>
               <p>
-                Não porque o produto é fraco.<br/>
-                Não porque os corretores são ruins.
+                Não pela qualidade da entrega.<br/>
+                Não pela amplitude.
               </p>
               <p className="font-bold text-dominus">
-                Mas porque sem diretório, sem frequência e sem dados, o que poderia ser autoridade vira ruído.
+                Mas porque sem diretório, sem exposição e sem fato de ser lembrado, o que poderia ser autoridade vira ruído.
               </p>
             </div>
           </motion.div>

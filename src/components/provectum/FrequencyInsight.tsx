@@ -32,11 +32,11 @@ export function FrequencyInsight() {
             <div className="text-sm font-bold tracking-widest text-text-gray mb-8 uppercase">Hoje</div>
             <div className="space-y-6">
               <div className="flex items-end gap-4 border-b border-white/10 pb-6">
-                <span className="text-5xl font-black text-text-white">1x</span>
+                <span className="text-5xl font-black text-text-white">2x</span>
                 <span className="text-xl text-text-gray pb-1">por semana</span>
               </div>
               <div className="flex items-end gap-4">
-                <span className="text-4xl font-bold text-text-white">4x</span>
+                <span className="text-4xl font-bold text-text-white">8x</span>
                 <span className="text-lg text-text-gray pb-1">por mês</span>
               </div>
             </div>
@@ -57,8 +57,8 @@ export function FrequencyInsight() {
             <div className="text-sm font-bold tracking-widest text-dominus mb-8 uppercase">Com a Dominus</div>
             <div className="space-y-6">
               <div className="flex items-end gap-4 border-b border-dominus/20 pb-6">
-                <span className="text-6xl font-black text-dominus">2x</span>
-                <span className="text-xl text-text-white pb-1 font-medium">por dia</span>
+                <span className="text-6xl font-black text-dominus">14x</span>
+                <span className="text-xl text-text-white pb-1 font-medium">por semana</span>
               </div>
               <div className="flex items-end gap-4">
                 <span className="text-5xl font-bold text-dominus/90">60x</span>
@@ -66,7 +66,7 @@ export function FrequencyInsight() {
               </div>
             </div>
             <p className="mt-10 text-xl text-text-white font-medium leading-relaxed">
-              Um ecossistema de conteúdo com frequência, estratégia e identidade.
+              Apareceremos em uma semana o que hoje vocês aparecem em um mês.
             </p>
           </motion.div>
         </div>
