@@ -4,34 +4,56 @@ export function Diagnostic() {
   return (
     <section className="py-24 md:py-32 bg-background-light text-text-dark">
       <div className="container mx-auto px-6 md:px-20 max-w-7xl">
-        <motion.div 
-          initial={{ opacity: 0, y: 40 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.7 }}
-          className="max-w-4xl mb-16 md:mb-24"
-        >
-          <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-8">
-            A Provectum é grande. <br className="hidden md:block" />
-            <span className="text-text-gray font-semibold">O problema é que o mercado ainda não sente isso.</span>
-          </h2>
-          
-          <div className="space-y-6 text-lg md:text-xl text-text-dark/80 max-w-3xl leading-relaxed">
-            <p>
-              Vocês trabalham com todas as faixas de VGV. Do Minha Casa Minha Vida ao alto padrão. Têm 11 unidades em Campinas, Valinhos e Paulínia. Estão entre as 20 melhores imobiliárias do Brasil no Ranking da Superlógica.
-            </p>
-            <p className="font-medium text-text-dark">
-              Mas nas redes sociais, a Provectum parece qualquer outra imobiliária de Campinas.
-            </p>
-            <p>
-              Não porque o produto é fraco.<br/>
-              Não porque os corretores são ruins.
-            </p>
-            <p className="font-bold text-dominus">
-              Mas porque sem diretório, sem frequência e sem dados, o que poderia ser autoridade vira ruído.
-            </p>
-          </div>
-        </motion.div>
+        <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-20 mb-16 md:mb-24">
+          <motion.div 
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-100px" }}
+            transition={{ duration: 0.7 }}
+            className="flex-1"
+          >
+            <h2 className="text-4xl md:text-5xl font-black leading-tight mb-4 text-text-dark">
+              A Provectum é grande.
+            </h2>
+            <h2 className="text-4xl md:text-5xl font-bold leading-tight mb-8 text-text-gray/70">
+              O problema é que o mercado ainda <br className="hidden md:block" /> não sente isso.
+            </h2>
+            
+            <div className="space-y-6 text-lg md:text-xl text-text-dark/80 max-w-2xl leading-relaxed">
+              <p>
+                Vocês trabalham com todas as faixas de VGV. Do Minha Casa Minha Vida ao alto padrão. Têm 11 unidades em Campinas, Valinhos e Paulínia. Estão entre as 20 melhores imobiliárias do Brasil no Ranking da Superlógica.
+              </p>
+              <p className="font-bold text-text-dark">
+                Mas nas redes sociais, a Provectum parece qualquer outra imobiliária de Campinas.
+              </p>
+              <p>
+                Não porque o produto é fraco.<br/>
+                Não porque os corretores são ruins.
+              </p>
+              <p className="font-bold text-dominus">
+                Mas porque sem diretório, sem frequência e sem dados, o que poderia ser autoridade vira ruído.
+              </p>
+            </div>
+          </motion.div>
+
+          {/* Imagem da Logo na direita */}
+          <motion.div
+            initial={{ opacity: 0, scale: 0.9 }}
+            whileInView={{ opacity: 1, scale: 1 }}
+            viewport={{ once: true }}
+            transition={{ delay: 0.3, duration: 0.7 }}
+            className="flex-1 w-full flex justify-center lg:justify-end"
+          >
+            <div className="relative w-full max-w-[400px] aspect-square flex items-center justify-center">
+              <div className="absolute inset-0 bg-dominus/5 rounded-full blur-[80px] pointer-events-none" />
+              <img 
+                src="/provectum/logo-provectum.webp" 
+                alt="Logo Rede Provectum Imóveis" 
+                className="w-full h-auto object-contain relative z-10 mix-blend-multiply opacity-90"
+              />
+            </div>
+          </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {[
