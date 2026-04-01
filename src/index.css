@@ -4,7 +4,7 @@
 
 @layer base {
   body {
-    @apply bg-background text-primary antialiased;
+    @apply bg-background-light text-text-dark antialiased;
     font-family: 'Montserrat', sans-serif;
   }
 }

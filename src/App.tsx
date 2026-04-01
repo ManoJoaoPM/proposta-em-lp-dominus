@@ -1,12 +1,15 @@
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Home from "@/pages/Home";
+import ProvectumLP from "@/pages/ProvectumLP";
+import LeadCapture from "@/pages/LeadCapture";
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Navigate to="/imobiliaria-inglaterra" replace />} />
+        <Route path="/" element={<LeadCapture />} />
         <Route path="/imobiliaria-inglaterra" element={<Home />} />
+        <Route path="/rede-provectum" element={<ProvectumLP />} />
       </Routes>
     </Router>
   );
