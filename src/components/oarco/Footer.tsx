@@ -10,7 +10,7 @@ export function Footer() {
           />
           <span className="text-text-gray/30 text-lg font-light">×</span>
           <img 
-            src="/oarco/oarco-logo.webp" 
+            src="/oarco-assets/oarco-logo.webp" 
             alt="OArco GI" 
             className="h-6 w-auto object-contain opacity-50 grayscale"
           />

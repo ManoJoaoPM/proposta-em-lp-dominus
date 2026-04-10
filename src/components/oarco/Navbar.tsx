@@ -12,7 +12,7 @@ export function Navbar() {
           />
           <span className="text-text-gray/50 text-xl font-light">×</span>
           <img 
-            src="/oarco/oarco-logo.webp" 
+            src="/oarco-assets/oarco-logo.webp" 
             alt="OArco GI" 
             className="h-8 w-auto object-contain"
           />
